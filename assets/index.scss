@@ -1,0 +1,10 @@
+// rassemble tous les fichiers sass
+
+// settings.scss doit être lu en premier pour que sass connaisse les variables
+@import "./settings";
+@import "./styles/components/button";
+@import "./styles/components/form";
+@import "./styles/layout/footer";
+@import "./styles/layout/navbar";
+@import "./styles/pages/404";
+@import "./styles/pages/home";
